@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+<head> 
+<link rel="stylesheet" href="css/style.css"> 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+</head>
+<body>
+<header>
+    <div class="logo">
+            <img src="img/logo.png" alt="Accenture AI Logo">
+    </div>
+    <div class="top-right">
+    Sol.Plan and Contract Gaps Analyzer
+    </div>
+</header>
+<div class="Absolute-Center is-Responsive">
+	<form class="md-form left-gap" id="data">
+	<div class="h6 mb-4 text-center font-weight-bold color-white">File Upload</div>
+	<span class="fileHeading color-white">Prasent Site amet facllisis magna.Proin Posuere urna arcu</span>
+	<div class="md-form">
+		<input name="file" type="file" id="file1" value="Choose a video please"/>
+	</div>
+	<div class="md-form">
+		 <div id="myProgress" >
+	  <div id="myBar"></div>
+	 </div>
+	</div>
+	<p class="h6 mb-4 text-center font-weight-bold color-white">Select From</p>
+	<div class="md-form">
+    <button class="btn btn-danger btn-sm dropdown-toggle multiSel" id="btntxt" type="button" data-toggle="dropdown">
+        Please Select Value
+    </button>
+    <div class="dropdown-menu">
+	
+        <a class="dropdown-item" href="#"><input type="checkbox" name="keys[]" value="Are there No ">Are there No Limitation on Direct Damages OR any Indirect/ Consequential Damages Disclaimer in the contract?</a>
+        <a class="dropdown-item" href="#"><input type="checkbox" name="keys[]" value="Is the provisions">Is the provisions related to benchmarking adequately addressed in contract and solution?</a>
+	</div>
+  </div>
+  <input type="submit" value="Find Gaps" class="btn btn-indigo float-right">
+  </form>
+</div>
+
+<div id="outputBox"  style="display:none;">
+	<div class="outputContainer Absolute-Center is-Responsive">
+		<div class="color-white">Output Results</div>
+		<div class="color-white">Prasent Site amet facllisis magna.Proin Posuere urna arcu</div>
+	</div>
+	<div class="feedback Absolute-Center is-Responsive">
+	<span class="category">Category:</span>
+	<span class="gap"></span><br/></br>
+	<span class="feedbackHead">Comments:</span>
+        <span class="feedbackText"></span></br></br>
+    <span class="feedbackHead">Page -- of SOW states that: </span>
+	<div class="outputText"></div></br></br>
+        <span class="reason"></span>
+	</div> 
+</div>
+<div class="copyright">@2018 Accenture.All Rights Reserved</div>
+</div>
+</body>
+</html>
+<!-- SCRIPTS -->
+    <!-- JQuery -->
+    <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="js/main.js"></script>

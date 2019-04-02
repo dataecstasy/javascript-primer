@@ -1,0 +1,10 @@
+Flask_Cors==3.0.6
+pandas==0.22.0
+pycurl==7.43.0.2
+nltk==3.2.5
+requests==2.20.0
+python_docx==0.8.6
+Flask==1.0.2
+PyPDF2==1.26.0
+certifi==2018.8.13
+docx==0.2.4

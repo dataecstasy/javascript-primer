@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script language="javascript" type="text/javascript">
+   {# function myFunction(elem){
+        if(confirm('Are you sure you want to ' + elem.name) == true){
+            alert("its done.");
+         }
+         else {
+            return false;
+         }
+    }
+
+    function senddata()
+    {
+
+        var inputs = document.getElementById("text1").value;
+        alert(inputs)
+    }
+#}
+
+    </script>
+<body>
+    <div class="logo">
+            <img src="img/logo.png" alt="Accenture AI Logo">
+    </div>
+    <div class="top-right">
+    Sol.Plan and Contract Gaps Analyzer
+    </div>
+<a href="/add">Hi </a>
+<form id="frm" action = "/router" method = "POST" enctype="multipart/form-data">
+    <input type="file" name="file" id="fileToUpload"><br>
+
+    <div class="dropdown-menu">
+
+        <a class="dropdown-item" href="#"><input type="checkbox" name="keys[]" value="1"> Action</a>
+        <a class="dropdown-item" href="#"><input type="checkbox" name="keys[]" value="2"> Another action</a>
+        <a class="dropdown-item" href="#"><input type="checkbox" name="keys[]" value="3"> Something else here</a>
+	</div>
+    <button type="submit" value="Submit" >Submit</button>
+</form>
+</body>
+</html>

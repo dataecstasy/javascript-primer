@@ -1,0 +1,193 @@
+,0
+0,STATEMENT OF WORK
+1,Sample for Application list present in SP missing in contract
+2,Formation of Agreement
+3,"This document is entered into by and between Bank Limited and ABC Pty Ltd (Service Provider), and constitutes a Statement of Work (SOW) under the Master Agreement between the parties with MA Effective Date 30 November, 2012 and Restated on 20 January, 2014 (MA)."
+4,"In accordance with Clause 3.5 of the MA, this SOW incorporates by reference the terms and conditions of Parts A and C of the MA and the applicable provisions of Part B of the MA and the Schedules to the MA (to the extent applicable to the Services and Deliverables to be provided under this SOW), all of which taken together with this SOW constitute a separate Agreement between XYZ and the Service Provider (subject to Clause 3.7 (Related SOWs) of the MA)."
+5,Related SOWS
+6,"For the purposes of clause 3.7(a) of the MA, this SOW and the SOW referred to in the table below constitute a Related SOW (as updated or amended through Change Control under each SOW):"
+7,Effective Date and Term
+8,Effective Date
+9,The SOW Effective Date of this SOW is 1 October 2017.
+10,Term
+11,The Term of this SOW shall end on 30 September 2018.
+12,Extension Term
+13,"If the Extension Term is stated to apply (Y), then in accordance with Clause 4.2(b) of the MA, XYZ may elect to extend the Term of this SOW beyond expiry of the initial Term specified above, by up to two (2) additional terms of twelve (12) months each.  All the provisions of this SOW (including the Charges) shall apply to such Extension Term.  If the Extension Term is stated not to apply (N), then Clause 4.2(b) of the MA does not apply to this SOW."
+14,Termination of SoW
+15,XYZ can terminate this Statement of Work at any time with 30 days written notice.
+16,Scope of Services
+17,Background
+18,"Pursuant to SOW 96, Service Provider has provided support services in relation to XYZs is approximately 5 years. Service Provider has delivered support services on Non-Production environments and deployment services on both Production and Non-Production environments."
+19,SOW 96 will expire on 30 September 2017 and XYZ now wishes to enter into this SOW 230 for similar services to those performed under SOW 96 with respect to the following: 
+20,Environments and their associated complexity
+21,Environments availability 
+22,Progressive reduction of defect counts
+23, 
+24,Deployment Services on non-production environments  
+25,Services (and Associated Deliverables)
+26,Services to be provided under this SOW are of the following general type and description:
+27,"The following section details the Services to be provided and any additional terms applicable to them.  However, except where specifically stated otherwise, it does not detract from any other obligations specified to be performed under Parts A and C of the MA (e.g., re BCP/DRP or Disengagement) or under the relevant Schedules to the MA. "
+28,Service Provider will perform the following services on non-production environments (listed in section 4.6) for Core Platform as defined in the DOS
+29,Incident and problem management (Incidents for the scope of this SOW is referred to as environment defects). 
+30,Improvement initiatives for defect reduction
+31,"Command Centre management (Defect Management, Service Reporting, Change Management, Release and Deployment Management)"
+32,Release and deployment management services
+33,"Test data management  planning and execution of data refresh, data masking, once per quarter."
+34,Maintenance of Application Certificates
+35,Environment Support Services and Description of Service (DOS)
+36,"The scope of Environment support services includes the following activities, as governed by the DOS mapping set out below, for the Non-Production environments. "
+37,"The Core Platform comprises of OBP (Oracle Banking Platform), OCH (Oracle Customer Hub) and associated Oracle and Experian products."
+38,Service Provider is responsible for the Environment Support Services on the application software on the non-production environments for Core Platform. The Service Provider is responsible for the end to end management of non-production environments. 
+39,Service provider will provide deployment services on all the environments listed in section 4.6
+40,This is further set out in the image below:
+41,	
+42,"Service Provider will provide Assistance via management of the defects and problem resolution together with XYZ Service Management when the incident or problem relates to XYZs Third Party service providers and XYZ internal support teams as part of delivery of the Environment Support Services. Service Provider will follow XYZs Service Management processes for Incident, Problem and Change when engaging Third Party services providers and XYZ Support Teams. Service Provider will inform XYZ on progress and seek assistance if further escalation is required with Third Parties or other XYZ teams during Incident, Problem or Change. "
+43,"The RACI below outlines the responsibilities between Service Provider, XYZ and XYZs Third Party Providers (3PP)."
+44,The Service Provider is responsible for End to End Management of defect resolution impacting the Core Platform.
+45,"For In-Scope Environments listed in Clause 4.6 of this SOW, Service Provider will interface with Packaged Product Providers and raise Service Requests (SRs) to obtain fixes to Product problems. Service Provider will inform XYZ on progress and seek assistance if further escalation is required with the providers to progress the SR resolution."
+46,"Details of the Services which apply to this SOW from the Description of Service (DOS) are set out below. Where an item is broken out to indicate its subcomponents, only those Services in marked as Y will be provided against the section of the DOS. The Services marked N will not be provided by Service Provider."
+47,Service Requests
+48,DOS VARIATIONS AND CORRESPONDING XYZ RESPONSIBILITIES
+49,Scope Exclusions
+50,The scope of the Services under this SOW specifically excludes:
+51,Adhoc data fabrication for supporting project activities
+52,Environments outside of the Core Platform (list in Clause 4.6) that may be required to run the Services.
+53,Scope Change Drivers
+54,"In the event that XYZ requests changes in the support requirements, then the parties agree to negotiate in good faith and both acting reasoXYZly to ascertain the impact to the Environment Support Services Services and the Charges through the Change Management Process.  Examples of scenarios which may require changes to support requirements (Scope Change Drivers) include (but are not limited to):"
+55,Addition of  environments 
+56,Uplift or creation of a new environment re-baseline will be established after evaluation
+57,Additional scope for Command Centre Management not covered in the DOS
+58,Change in agreed Service Levels
+59,Change in support hours
+60,Deadband
+61,Addition of Low complexity environments
+62,The Service Provider will absorb up to 2 additions of low complexity environments (non-integrated and non-clustered) with 2 weeks of notice
+63,To absorb the support for these additional environments XYZ will reduce the SLA for service availability from 75% to 70% for low complexity environment(s) for the remaining term of the SOW 
+64,Addition of Medium complexity environments
+65,The Service Provider will absorb the addition of one Medium complexity environment with 4 weeks of notice 
+66,To absorb the support for the additional environments XYZ will reduce the SLAs for service availability from 90% to 85% for High and Medium complexity environments for the remaining term of the SOW
+67,XYZ Environment
+68,The following XYZ Environments will be in scope for this SOW:
+69,"* NPP1, NPP2 and DEV4 are used & updated by projects and do not have historical data available. Service provider is therefore not be responsible for CSLs in these instances. Only KPIs will apply."
+70,** TRN1 and STG8 do not have historical data available. A baselining period of 3 months will therefore apply before the CSLs are invoked.
+71,Disengagement Services
+72,The section addresses the key principles and approach for Disengagement Services that may be provided by Service Provider. 
+73,The reduction of the risk of disengagement to XYZ and minimisation of disruption or deterioration to business-as-usual services are key principles on which the approach will be based. 
+74,"The parties agree that Disengagement Services will be conducted as a separate project (contracted under a separate SOW) and will not be provided as a Service under this SOW.  The Service Provider agrees that this clause does not limit its obligation to provide Disengagement Services as set out in Clause 11 of the MA, however the parties agree that the scope of Service Provider's obligations in relation to Disengagement Services will be documented and agreed in a separate SOW. Where the parties agree a separate SOW for Disengagement Services, then that SOW will be a Related SOW to this SOW."
+75,"Service Provider and XYZ will collaboratively determine and agree (acting reasoXYZly) the exact scope of the Disengagement Services (and associated Disengagement Charges) that are required for XYZ and the identified service recipients under a jointly developed and agreed disengagement plan (under a separate SOW), with the objective of achieving a transition to the succeeding provider or back to XYZ. This disengagement plan will include:"
+76,"Co-operation with XYZ and the succeeding service provider in planning and effecting the orderly transfer of the ended Services to the succeeding service provider, in particular by working together with XYZ, the service recipients and any potential succeeding service provider in accordance with Clause 11 (Disengagement Services) of the MA; "
+77,"Subject to any relevant limitations set out in the MA, including under Clause 7.4(f) (Co-operation with Other Providers), if XYZ so desires, Service Provider will provide support to XYZ in the preparation of a tender for the disengaged services (e.g. by way of a Request for Proposal or a Request for Information), in particular by making available know-how and training related to the delivery of the disengaged Services, and the use of any systems or procedures to be transferred from Service Provider to the succeeding service provider, if any;"
+78,"Subject to any relevant limitations set out in the MA, including under Clause 7.4(f), provide XYZ with copies of all relevant Documentation, data and information, as agreed and detailed in the mutually agreed disengagement plan; and"
+79,"The performance of activities reasonably necessary to effect the transition of the disengaged Services to the service recipients, as detailed and agreed in the disengagement plan."
+80,"The disengagement plan (as agreed and set out in a separate SOW) will detail the project plan, the costs and other relevant details for the Disengagement Services"
+81,Business Continuity and Disaster Recovery Services
+82,Provided in accordance with the DOS. 
+83,In-Scope Countries 
+84,Australia 
+85,Locations  
+86,The Services contained in this SOW will be delivered from the Service Provider Locations to the XYZ Service Locations set out below: 
+87,Support Hours for the region (as set out in the table above) are as follows: 
+88,Standard Support Hours for all Incident priorities and deployments:
+89,Manned/physical Support Hours: 08:00  23:00 AEST Monday to Friday (except public holidays in Melbourne)
+90,Deployment support outside of standard support hours (i.e. after hours on weekdays and on weekends) will be provided by prior notice of 48 hours 
+91,Command Centre Support Hours: 08:00  23:00 AEST Monday to Friday (except public holidays in Melbourne).
+92,Organisational Chart
+93,The diagram below outlines the day one organisational structure to deliver the agreed scope of Services in this SOW.
+94,Baseline Metrics for defects
+95,The following volumes per quarter will constitute the Baseline Metrics for defects for the purposes of this SOW:
+96,"* Defects relate to environment defects only. Where mutually agreed, Oracle product defects & Infrastructure defects and other non-environment defects are excluded. Service provider will be responsible for end to end management of defect resolution process "
+97,Milestone Dates
+98,Not applicable.
+99,Liquidated damages
+100,Not applicable.
+101,"Assumptions, Dependencies and XYZ Responsibilities"
+102,"In addition to any other XYZ Responsibilities or duties described elsewhere, set forth below is a list of the XYZ Responsibilities upon which Service Provider will depend for all the Services. The Service Provider will not be in breach of the Agreement and will be excused from failures to perform its obligations under the Agreement (including meeting Service Levels or Milestones) to the extent that its failure to perform an obligation is a direct result of (i) XYZ's failure to perform an obligation set out below; or (ii) any of the dependencies set out below being materially inaccurate, and each of (i) and (ii) will be considered a XYZ Event for the purposes of the MA. To support XYZ meeting the various XYZ responsibilities and dependencies, Service Provider will notify XYZ promptly on determining that a responsibility or dependency may be missed, including offering suggested workarounds or other options to assist resolution"
+103,Deliverables
+104,Deliverable Types
+105,The Service Provider will provider configuration and code to XYZ through the performance of the Environment Support Services.
+106,"Acceptance Testing (time frame, criteria and responsibilities) "
+107,Not applicable.
+108,Intellectual Property
+109,Intellectual Property Ownership
+110,The parties agree that the following Intellectual Property Right option from clause 25.4 of the MA (Developed Intellectual Property) applies to the Developed Intellectual Property under this Statement of Work (select only one option):
+111,Approved Third Party Materials
+112,"The following Approved Third Party material will be embedded in a Deliverable, or provided to XYZ, under this SOW.  XYZ will enter into an agreement directly with the relevant Third Party for the Approved Third Party Material.  "
+113,Open Source Software Approved Third Party Materials
+114,The following Open Source Software will be used in one or more of the Deliverables:  
+115,Service Provider Tools and Methodologies 
+116,"Where requested by XYZ, the Service Provider will in the provision of the Services use or make available to XYZ (subject to the licence terms noted in the far right hand column of the table below), the Licensed Software and Service Provider Tools and Methodologies specified in the table below.  Any additional tools required by the Service Provider, to perform the Services specified in this SOW, will be provided by XYZ. "
+117,Charges and Payment Milestones
+118,Basis of Discretionary Charges
+119,"The following table sets out the alignment between Appendix 3 (Charges) of the Description of Service (DOS), and Industrialisation Charges the subject of this SOW."
+120,Base Charges for Services
+121,a)   Fixed price 
+122,"The total Charge payable for the Services (and associated Deliverables) is 4,440,176 (Total Fees) exclusive of GST and XYZ overheads."
+123,XYZ will pay the Fixed Price portion of the Total Fees in accordance with the following schedule:
+124,b)   Time &Materials  
+125,The Time & Materials component is included in the Total Fees to be used at XYZs discretion and with XYZs approval by way of a draw down if required and will be invoiced separately.  
+126,Expenses and Disbursements
+127,"In addition to Total Fees, XYZ agrees to pay $7,496 in expenses for any discretionary expenses for the T&M component in accordance with XYZs expense management policy."
+128,Disengagement Charges
+129,Not applicable.
+130,Termination Charges
+131,Not applicable.
+132,Invoice requirements
+133,Invoices will include the following details:
+134,Service type: Environment Support Services 
+135,"Capability type (i.e. front end, core or integration): Core  Banking"
+136,"Relevant XYZ Group business unit (e.g. XYZ Personal Banking, XYZ Business Banking,  XYZ Asia, MLC/Wealth): Technology"
+137,Service Levels
+138,"The following table details the relevant CSLs (Critical Service Levels), KPIs (Key Performance Indicators) and other Key Measures as set out in the DOS under the MA. Where an SLA Variable detailed below vary from the DOS, then the SLA Variable as set out below will take precedence:"
+139,Note #1:
+140,"Environment availability will exclude the outages caused by Oracle product defects, Infrastructure defects and other non-environment defects where mutually agreed with XYZ. Service Provider will be responsible for end to end management of the outage restoration."
+141,Note #2:
+142,Low Complexity Environments
+143,Low Complexity Environments which have been mutually agreed to be under management of Projects will be excluded from any CSLs however KPIs will apply.
+144,Low Complexity Environments which are not under the management of Projects will be included in the CSL calculation.
+145,The Low Complexity Environments known as STG8 and TRN1 will be included in the CSL calculation but will be exempted from any CSL failure during the first 3 months of this SOW. During the first three months a baseline will be established
+146,Any additional Low Complexity Environments added to the CSL calculation will be exempted from any CSL failure for 2 months from the agreed date of inclusion in the CSL calculations.
+147,Note #3:
+148,Deployments
+149,"An agreed prioritization of work, would be required when:"
+150,Threshold of an average volume of 100 deployment requests (including hotfix) per month as capacity is exceeded 
+151,A daily Peak of 4 deployment requests (including hotfix) per month as capacity is exceeded 
+152,9.1	Calculation of Service Level Credit
+153,The Service Provider is required to provide XYZ a report within 7 days at the end of each month detailing their Service Level performance to the Performance Category.
+154,XYZ will then review the report to determine whether the Service Provider has met its obligations under the Service Levels and may apply all or part of the Service Level Credit Allocation Percentage.
+155,Personnel
+156,XYZ Services Delivery Manager
+157,Service Provider Service Delivery Manager
+158,Service Provider  Key Personnel
+159,"For the purposes of this SOW, the Service Providers Key Personnel are:"
+160,Service Provider  Other Important Personnel  
+161,The following Personnel of the Service Provider will also have important roles in managing the provision of the Services under this SOW:
+162, XYZ  Important Personnel
+163,The following Personnel of XYZ will also have important roles in managing the receipt of the Services under this SOW: 
+164,Approved Subcontractors
+165,Not applicable.
+166,Managed and Third Party Contracts
+167,Meetings
+168,The following additional governance meetings (over and above the Agreement requirements of the MRB and SDF which will be applied to these Services) will be held under this SOW:
+169,"Fortnightly Demand Management Meeting to be held either separately, or rolled into another delivery forum/meeting for core  banking."
+170,Monthly Operational Governance Meeting
+171,Personal Information
+172,Access to Personal Information will be provided by XYZ. Service Provider agrees to follow XYZs internal process of personal data use agreement as a pre-condition to Service Provider Personnel being granted access to XYZs Personal Information.
+173,Other Provisions
+174,16.1 Limitation of Liability
+175,"The total liability of each Party (and its Affiliates and subcontractors) to the other Party (and its Affiliates, subcontractors and/or to any third party or otherwise whether based upon an action or claim in contract, tort (including negligence), warranty, misrepresentation, equity or otherwise (including any action or claim arising from the acts or omissions of the liable Party (or, as the case may be, its Affiliate), including any indemnity, or in any manner related to arising from or in connection with this Agreement, will not in the aggregate exceed an amount equal to the charges for Services paid to Accenture under the SOW giving rise to such liability during the six-month (6) period immediately preceding the most recent event giving rise to the claim."
+176,16.2 Benchmarking
+177,"Client may, by providing 15 days notice to Accenture, during the Term instruct the Benchmarker to "
+178,separately carry out Benchmarking. The Benchmark Process may not be conducted until the expiry of 
+179,the period of 18 months commencing on the Contract Effective Date. Thereafter the 
+180,may not be subject to a Benchmark more than once every 12 months.The Parties shall bear their own 
+181,"individual costs incurred in participating in a Benchmark Process, pay an equal share of the "
+182,Benchmark Charges and each co-operate with each other and with the Benchmarker in good faith in 
+183,"relation to each Benchmark, and neither Party shall impede the Benchmarker in carrying out a "
+184,"Benchmarking. If the Charges are equal to or less than the Fair Market Price, then the Charges shall "
+185,"be unaffected by the Benchmark.If the Benchmarking result indicates higher price, and  If Accenture "
+186,does not provide such plan or implement such plan to reduce the Charges as required by this Section 
+187,and the Parties cannot agree on an adjustment to the Charges through the informal dispute 
+188,"resolution, Client may, upon 30 days notice to Accenture, terminate the applicable Service "
+189,Agreement or the applicable Statement of Work  with payment of any termination charges.
+190,EXECUTED AS AN AGREEMENT	
+191,			
